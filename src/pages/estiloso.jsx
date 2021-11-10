@@ -1,10 +1,9 @@
 import styles from '../styles/Estiloso.module.css'
-import Link from 'next/link'
 import Layout from '../component/Layout'
 
 export default function Estiloso() {
     return (
-        <Layout titulo="Esta é uma pagina Layout!">
+        <Layout titulo="Esta tem um  Layout!">
             <div className={styles.roxo}>
                 <h1>Estilo usando CSS Módulos</h1>
                 <h4>Estilicos modularizados é o mesmo css porém com a extenção <p>
