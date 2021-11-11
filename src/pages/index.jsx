@@ -18,9 +18,11 @@ export default function Inicio (){
             height: '40vh',
 
         }}> 
-            <Navegador texto="Layout da pagina" destino="/estiloso"></Navegador><br></br>
-            <Navegador texto="App" destino="/app" cor='#8b008b'></Navegador><br></br>
-            <Navegador texto="JSX" destino="/jsx" cor='#8a2be2'></Navegador><br></br>
+            <Navegador texto="Layout da pagina" destino="/estiloso"></Navegador>
+            <Navegador texto="App" destino="/app" cor='#8b008b'></Navegador>
+            <Navegador texto="JSX" destino="/jsx" cor='#8a2be2'></Navegador>
+            <Navegador texto='Cliente' destino="/clientes" cor='red'></Navegador>
+            <Navegador texto='Empresa' destino="/empresa/123" cor='blue'></Navegador>
            
         </div>           
         </div>             
