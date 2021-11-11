@@ -22,7 +22,7 @@ export default function Inicio (){
             <Navegador texto="App" destino="/app" cor='#8b008b'></Navegador>
             <Navegador texto="JSX" destino="/jsx" cor='#8a2be2'></Navegador>
             <Navegador texto='Cliente' destino="/clientes" cor='red'></Navegador>
-            <Navegador texto='Empresa' destino="/empresa/123" cor='blue'></Navegador>
+            <Navegador texto='Empresa' destino="/empresa/sp-01/172" cor='blue'></Navegador>
            
         </div>           
         </div>             

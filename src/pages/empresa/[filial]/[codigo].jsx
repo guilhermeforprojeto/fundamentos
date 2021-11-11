@@ -1,4 +1,4 @@
-import Layout from "../../component/Layout";
+import Layout from "../../../component/Layout";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 
@@ -8,7 +8,8 @@ export default function EmpresaPorCodigo(){
     //Apenas para log 
     useEffect(() => {
         console.log("Aqui o objeto de query    "+ router.query)
-        console.log("Aqui o valor do obj de query  "+ router.query.codigo)
+        console.log("Aqui o valor do obj de query codigo  "+ router.query.codigo)
+        console.log("Aqui o valor do obj de query filial "+ router.query.filial)
     }, [])
 
     return (
@@ -38,8 +39,12 @@ export default function EmpresaPorCodigo(){
                 comum que pode ser usada pelo JS
 
             </p>
+            <h3>Aqui como a navegação esta dinamica dentro de sub pasta mantendo o endereço todo dianmico de empresa pra frente</h3>
             <p>Aquui a baixo temos o uso de router.query.codigo </p>
             <span>Código = {router.query.codigo}</span>
+            <p>Aquui a baixo temos o uso de router.query.filial</p>
+            <span>Código = {router.query.filial}</span>
+
         </Layout>
     )
 }
