@@ -23,6 +23,7 @@ export default function Inicio (){
             <Navegador texto="JSX" destino="/jsx" cor='#8a2be2'></Navegador>
             <Navegador texto='Cliente' destino="/clientes" cor='red'></Navegador>
             <Navegador texto='Empresa' destino="/empresa/sp-01/172" cor='blue'></Navegador>
+            <Navegador texto='Componente estado' destino="/estado" cor='green'></Navegador>
            
         </div>           
         </div>             
