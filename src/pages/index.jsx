@@ -24,6 +24,7 @@ export default function Inicio (){
             <Navegador texto='Cliente' destino="/clientes" cor='red'></Navegador>
             <Navegador texto='Empresa' destino="/empresa/sp-01/172" cor='blue'></Navegador>
             <Navegador texto='Componente estado' destino="/estado" cor='green'></Navegador>
+            <Navegador texto='API - async/await' destino="/integracao_1" cor='#444'></Navegador>
            
         </div>           
         </div>             

@@ -6,5 +6,6 @@ export default function handler(req, res) {
     metado: req.method,
     nome: req.query.nome,
     idade: req.query.idade,
+    email: req.query.email,
      })
 }

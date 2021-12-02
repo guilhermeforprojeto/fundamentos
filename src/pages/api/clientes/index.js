@@ -12,7 +12,7 @@ function handlerGet(req, res) {
     res.status(200).json({
         id: 3,
         nome: 'Maria',
-        email: 'emailmariavalido@mariav.com.br'
+        email: 'emailmariavalido@mariav.com.br',
     })
     
 

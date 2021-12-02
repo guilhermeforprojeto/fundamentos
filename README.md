@@ -16,3 +16,10 @@ Para rodar esse app
 Como API usei o postman, no meu caso para Linux Mint 
     link para instalar 
     https://snapcraft.io/install/postman/mint#install
+
+    Apos instalar  foi criada um collections 
+        http://localhost:3000/api/clientes 
+
+        Onde como testes podemos fazer GET POST PUT etc...
+
+        
