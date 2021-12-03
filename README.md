@@ -5,9 +5,14 @@ Para rodar esse app
         Abra a pasta do projeto e em seguida para executar dentro da pasta via terminal este app instale o node e sem seguida execute.
 
         Instalar as dependencias 
-        
-        npm install 
 
+        
+        confirma se sua versão é v16.13.1
+
+        node -v
+                
+        npm install 
+        
         dentro da pasta do projeto rode 
 
         npm run dev
