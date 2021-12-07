@@ -3,9 +3,9 @@ import Layout from '../component/Layout'
 
 export default function Jsx (){
     return (
-        <Layout titulo="Esta tem um Layout!">
+        <Layout titulo="Esta tem um Layout!"passHref>
         <div><hi> JSX<br></br></hi>
-        <Link href="/">
+        <Link href="/" passHref>
         <button >Voltar</button>
         </Link>
         </div>

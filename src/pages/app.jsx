@@ -6,13 +6,13 @@ export default function App(){
     const explica = "<Cabecalho title='Titulo: aprenda next.js'></Cabecalho>"
     
     return (
-        <Layout titulo="Esta tem um  Layout!">
+        <Layout titulo="titulo da de  App!">
         <Cabecalho title='Titulo: aprenda next.js'></Cabecalho>
         <h3>Esse titulo acima foi rendereziado pelo componente <br></br>cabecalho.jsx enviado via props no app.jsx  </h3>
         
         <h5>{explica}</h5>
         <br></br>
-        <Link href="/">
+        <Link href="/" passHref>
                 <button >Voltar</button>
         </Link>
        </Layout>

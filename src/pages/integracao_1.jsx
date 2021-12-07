@@ -1,8 +1,9 @@
-import { useState, Link } from 'react'
+import { useState } from 'react'
 import Layout from '../component/Layout'
-export default function integracao() {
 
-    const [codigo, setCodigo] = useState(1)
+export default function Integracao() {
+
+    const [codigo, setCodigo] = useState(0)
     const [cliente, setCliente] = useState({})
 
     async function obterCliente() {

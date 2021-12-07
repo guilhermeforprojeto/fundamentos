@@ -1,23 +1,16 @@
 import Layout from "../../../component/Layout";
 import { useRouter } from "next/router";
-import { useEffect } from "react";
 
 export default function EmpresaPorCodigo(){
     const router = useRouter()
     
-    //Apenas para log 
-    useEffect(() => {
-        console.log("Aqui o objeto de query    "+ router.query)
-        console.log("Aqui o valor do obj de query codigo  "+ router.query.codigo)
-        console.log("Aqui o valor do obj de query filial "+ router.query.filial)
-    }, [])
 
     return (
 
         <Layout titulo="Navegação dinâmica">
             <p>
                 Aqui usamos useRouter e useEffect
-                para poder pegar o valor da "rota"
+                para poder pegar o valor da rota
                 o importe de useRouter traz o query
                 que dentro dele tem um objeto com valor 
                 de data rota informada, nesse caso 
