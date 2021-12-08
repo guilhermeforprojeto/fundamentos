@@ -17,6 +17,19 @@ Para rodar esse app
 
         npm run dev
 
+Até aqui é para ele funcionar em modo dev, apos alguns ajustes em um ponto commit 12
+
+        podemos agora usar 
+
+        npm run build
+
+        Com isso vamos criar um build se não haver erros
+        e em seguida podemos usar 
+
+        npm start 
+
+        para poder usar a build feita e assim ver como realmente funcionaria, paginas estaticas, dinamicas e e next.js na pratica 
+
 
 Como API usei o postman, no meu caso para Linux Mint 
     link para instalar 
